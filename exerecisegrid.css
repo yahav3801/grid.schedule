@@ -1,0 +1,51 @@
+
+.container {
+     row-gap: 10px;
+     column-gap:10px ;
+    display: grid;
+    grid-template-columns: minmax(50px, 100px) 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+    
+}
+.container span {
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 8px 8px;
+
+}
+.english {
+    text-align: center;
+    background-color: red;
+}
+.computer {
+    text-align: center;
+    background-color: green;
+    
+}
+.double {
+    grid-row: span 2;
+}
+.art {
+    text-align: center;
+    background-color: pink;
+}
+.geography {
+    text-align: center;
+    background-color: orange;
+}
+.science {
+    text-align: center;
+    background-color: blue;
+}
+.mathematics {
+    text-align: center;
+    background-color: yellow;
+}
+.sports {
+    text-align: center;
+    background-color: purple;
+}
+.music {
+    text-align: center;
+    background-color: aquamarine;
+}
